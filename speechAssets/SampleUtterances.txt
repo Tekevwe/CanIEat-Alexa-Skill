@@ -1,14 +1,10 @@
-GetNewFactIntent a fact
-GetNewFactIntent a space fact
-GetNewFactIntent tell me a fact
-GetNewFactIntent tell me a space fact
-GetNewFactIntent give me a fact
-GetNewFactIntent give me a space fact
-GetNewFactIntent tell me trivia
-GetNewFactIntent tell me a space trivia
-GetNewFactIntent give me trivia
-GetNewFactIntent give me a space trivia
-GetNewFactIntent give me some information
-GetNewFactIntent give me some space information
-GetNewFactIntent tell me something
-GetNewFactIntent give me something
+HelloIntent hello
+HelloIntent hey
+HelloIntent hi
+HelloIntent yo
+FoodQuery can I eat {do something|Food}
+FoodQuery what allergines are in (do something|Food}
+FoodQuery may I eat {do something|Food}
+FoodQuery can I have {do something|Food}
+FoodQuery may I have {do something|Food}
+FoodQuery is it ok for me to eat {do something|Food}
