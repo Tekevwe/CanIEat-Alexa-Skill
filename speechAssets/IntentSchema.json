@@ -1,6 +1,24 @@
 {
   "intents": [
     {
+      "intent": "FoodQuery"
+    },
+    {
+      "intent": "HelloIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+} 
+
+/* 
+{
+  "intents": [
+    {
       "intent": "GetNewFactIntent"
     },
     {
@@ -14,20 +32,4 @@
     }
   ]
 }
-/*
-{
-  "intents": [
-    {
-      "intent": "FoodQuery"
-    },
-    {
-      "intent": "HelloIntent"
-    },
-    {
-      "intent": "AMAZON.StopIntent"
-    },
-    {
-      "intent": "AMAZON.CancelIntent"
-    }
-  ]
-} */
+*/
