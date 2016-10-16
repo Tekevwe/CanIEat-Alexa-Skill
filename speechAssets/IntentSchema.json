@@ -1,8 +1,21 @@
-{
-  "intents": [
+{  
+     "intents": [
+    {
+      "intent": "AllergenesList"
+    },
+    {
+      "intent": "AllergenesAdd"
+    },
+      "intent": "AllergenesDelete"
+    },
+      "intent": "AllergicTo"
+    },
+      "intent": "WhatAllergenes"
+    },
     {
       "intent": "HelloIntent"
     },
+   
     {
       "intent": "AMAZON.HelpIntent"
     },
