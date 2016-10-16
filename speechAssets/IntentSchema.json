@@ -1,26 +1,21 @@
-{
-  "intents": [
+{  
+     "intents": [
     {
-      "intent": "FoodQuery"
+      "intent": "AllergenesList"
+    },
+    {
+      "intent": "AllergenesAdd"
+    },
+      "intent": "AllergenesDelete"
+    },
+      "intent": "AllergicTo"
+    },
+      "intent": "WhatAllergenes"
     },
     {
       "intent": "HelloIntent"
     },
-    {
-      "intent": "AMAZON.StopIntent"
-    },
-    {
-      "intent": "AMAZON.CancelIntent"
-    }
-  ]
-} 
-
-/* 
-{
-  "intents": [
-    {
-      "intent": "GetNewFactIntent"
-    },
+   
     {
       "intent": "AMAZON.HelpIntent"
     },
@@ -29,7 +24,15 @@
     },
     {
       "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "FoodQuery",
+      "slots": [
+        {
+          "name": "Food",
+          "type": "LITERAL"
+        }
+      ]
     }
   ]
 }
-*/
