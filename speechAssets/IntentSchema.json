@@ -5,12 +5,54 @@
     },
     {
       "intent": "AllergenesAdd"
+      "slots": [
+        {
+          "name": "Allergene",
+          "type": "Allergenes"
+        }]
     },
       "intent": "AllergenesDelete"
+      "slots": [
+        {
+          "name": "Allergene",
+          "type": "Allergenes"
+        }]
     },
       "intent": "AllergicTo"
+	"slots": [
+        {
+          "name": "Allergene",
+          "type": "Allergenes"
+        }]
     },
       "intent": "WhatAllergenes"
+      "slots": [
+        {
+          "name": "Food",
+          "type": "LITERAL"
+        }]
+    },
+    {
+      "intent": "IsIn",
+       "slots": [
+        {
+          "name": "Food",
+          "type": "LITERAL"
+        }
+        {
+          "name": "Allergene",
+          "type": "Allergenes"
+        }]
+       
+    },
+    {
+      "intent": "FoodQuery",
+      "slots": [
+        {
+          "name": "Food",
+          "type": "LITERAL"
+        }
+      ]
     },
     {
       "intent": "HelloIntent"
@@ -24,15 +66,7 @@
     },
     {
       "intent": "AMAZON.CancelIntent"
-    },
-    {
-      "intent": "FoodQuery",
-      "slots": [
-        {
-          "name": "Food",
-          "type": "LITERAL"
-        }
-      ]
     }
+   
   ]
 }
